@@ -2,3 +2,4 @@ bin
 obj
 SDL_Tutorial.cbp
 SDL_Tutorial.depend
+SDL_Tutorial.layout
