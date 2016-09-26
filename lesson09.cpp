@@ -34,6 +34,7 @@ bool init() {
             renderer = SDL_CreateRenderer(w, -1, SDL_RENDERER_ACCELERATED);
             if(renderer == NULL) {
                 cout << "No se ha podido crear el renderer: " << SDL_GetError() << endl;
+                success = false;
             }
         }
     }
