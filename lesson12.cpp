@@ -111,7 +111,7 @@ bool init() {
         if(!SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, "1")) {
             cout << "La calidad del escalado no ha podido ponerse en lineal: " << SDL_GetError() << endl;
         }
-        w = SDL_CreateWindow("Trabajando con SpriteSheets", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+        w = SDL_CreateWindow("Trabajando con Modulacion de color", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
         if(w == NULL) {
             cout << "No se ha podido crear la ventana: " << SDL_GetError() << endl;
             success = false;
