@@ -184,7 +184,7 @@ bool init() {
                     cout << "No se ha podido abrir el modulo de texto TTF: " << TTF_GetError() << endl;
                     success = false;
                 }
-            }            close();
+            }
         }
     }
 
