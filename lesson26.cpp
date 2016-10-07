@@ -90,7 +90,7 @@ class Dot {
         static const int HEIGHT = 20;
 
         //Constructor
-        Dot() {};
+        Dot() {}
 
         //Handle de eventos:
         void handleEvent(SDL_Event &e);
